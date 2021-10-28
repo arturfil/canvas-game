@@ -46,10 +46,9 @@ ctx.fillRect(400, 400, 40, 40);
 const img = new Image();
 img.src = 'https://static.pexels.com/photos/8700/wall-animal-dog-pet.jpg';
 
-let imgScale = 640/650;
 
 img.onload = () => {
-  ctx.drawImage(img, 150, 150, 150 * 0.7, 100);
+  ctx.drawImage(img, 0, 0, 190, 100);
   ctx.drawImage()
 }
 
@@ -66,3 +65,10 @@ img.onload = () => {
 //   }
   
 // }
+
+
+// edie & pablo
+// katherine & pao & chris
+// viktor & sylvia
+// kalju & lazaro
+// 
