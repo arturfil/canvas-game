@@ -23,12 +23,14 @@ ctx.lineTo(30, 130);
 ctx.stroke();
 ctx.closePath();
 
+
 ctx.beginPath();
 ctx.lineWidth = 8;
-ctx.arc(150, 150, 40, 0, Math.PI * 2);
+ctx.moveTo(150, 150)
+ctx.arc(150, 150, 40, 0, Math.PI * 0.5, false);
 ctx.fillStyle = 'green'
 ctx.strokeStyle = 'red';
-ctx.stroke(); // draw
+// ctx.stroke(); // draw
 ctx.fill();
 
 // creating text in canvas
@@ -66,9 +68,3 @@ img.onload = () => {
   
 // }
 
-
-// edie & pablo
-// katherine & pao & chris
-// viktor & sylvia
-// kalju & lazaro
-// 
